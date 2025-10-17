@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name hello -user guillaume -print0 | xargs -0 chown vincent
